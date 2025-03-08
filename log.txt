@@ -1,0 +1,63 @@
+Traceback (most recent call last):
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\mysql\connector\connection_cext.py", line 323, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+_mysql_connector.MySQLInterfaceError: Can't connect to MySQL server on 'localhost:3306' (10061)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\xamppo\htdocs\ganaderia\exportar_datos.py", line 5, in <module>
+    conexion = mysql.connector.connect(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\mysql\connector\connection_cext.py", line 140, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\mysql\connector\abstracts.py", line 1363, in connect
+    self._open_connection()
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\mysql\connector\connection_cext.py", line 328, in _open_connection
+    raise get_mysql_exception(
+mysql.connector.errors.DatabaseError: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\mysql\connector\connection_cext.py", line 323, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+_mysql_connector.MySQLInterfaceError: Can't connect to MySQL server on 'localhost:3306' (10061)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\xamppo\htdocs\ganaderia\preprocesar.py", line 7, in <module>
+    conexion = mysql.connector.connect(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\mysql\connector\connection_cext.py", line 140, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\mysql\connector\abstracts.py", line 1363, in connect
+    self._open_connection()
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\mysql\connector\connection_cext.py", line 328, in _open_connection
+    raise get_mysql_exception(
+mysql.connector.errors.DatabaseError: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\mysql\connector\connection_cext.py", line 323, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+_mysql_connector.MySQLInterfaceError: Can't connect to MySQL server on 'localhost:3306' (10061)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\xamppo\htdocs\ganaderia\entrenar_modelo.py", line 9, in <module>
+    conexion = mysql.connector.connect(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\mysql\connector\connection_cext.py", line 140, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\mysql\connector\abstracts.py", line 1363, in connect
+    self._open_connection()
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python311\Lib\site-packages\mysql\connector\connection_cext.py", line 328, in _open_connection
+    raise get_mysql_exception(
+mysql.connector.errors.DatabaseError: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)

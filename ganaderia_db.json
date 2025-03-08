@@ -1,0 +1,184 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"ganaderia_db"},
+{"type":"table","name":"animales","database":"ganaderia_db","data":
+[
+{"id":"1","arete_id":"46","fecha_nacimiento":"2007-04-17","color":"Negro","sexo":"Macho","peso":"67.00","corral_actual":"1","estado_salud":"Enfermo","fecha_registro":"2025-02-26 07:58:20","fecha_entrada":"7666-06-17","padre":null,"madre":null,"raza":null,"fierro":null,"estado":"Viva","expectativa":null,"foto":null,"lugar_nacimiento":null,"fecha_destete":null,"tipo_alimentacion":null,"numero_partos":"0","observaciones":null,"vendido":"1"},
+{"id":"6","arete_id":"4663","fecha_nacimiento":"2025-02-06","color":"rosa","sexo":"Hembra","peso":"45.00","corral_actual":"1","estado_salud":"En tratamiento","fecha_registro":"2025-02-26 09:13:20","fecha_entrada":"2025-02-06","padre":null,"madre":null,"raza":null,"fierro":null,"estado":"Viva","expectativa":null,"foto":null,"lugar_nacimiento":null,"fecha_destete":null,"tipo_alimentacion":null,"numero_partos":"0","observaciones":null,"vendido":"0"},
+{"id":"8","arete_id":"38","fecha_nacimiento":"2025-02-04","color":"cafe","sexo":"Macho","peso":"45.00","corral_actual":"7","estado_salud":"Sano","fecha_registro":"2025-02-26 10:47:28","fecha_entrada":"2025-02-05","padre":null,"madre":null,"raza":null,"fierro":null,"estado":"Viva","expectativa":null,"foto":null,"lugar_nacimiento":null,"fecha_destete":null,"tipo_alimentacion":null,"numero_partos":"0","observaciones":null,"vendido":"0"},
+{"id":"12","arete_id":"56","fecha_nacimiento":"2025-02-12","color":"Dorado","sexo":"Macho","peso":"34.00","corral_actual":"3","estado_salud":"Sano","fecha_registro":"2025-02-26 12:48:38","fecha_entrada":"2025-02-13","padre":"Gringo","madre":"Lechera","raza":"Thorffin","fierro":"AZ","estado":"Viva","expectativa":"Reproducción","foto":null,"lugar_nacimiento":null,"fecha_destete":null,"tipo_alimentacion":null,"numero_partos":"0","observaciones":null,"vendido":"0"},
+{"id":"15","arete_id":"67","fecha_nacimiento":"2025-02-08","color":"Gris","sexo":"Macho","peso":"45.00","corral_actual":"6","estado_salud":"En tratamiento","fecha_registro":"2025-02-26 13:25:07","fecha_entrada":"2025-02-12","padre":"Ramiro","madre":"Corriente","raza":"Gringo","fierro":"AZ","estado":"Viva","expectativa":"Lechera","foto":null,"lugar_nacimiento":"Aqui","fecha_destete":"2025-02-24","tipo_alimentacion":"Pastoreo","numero_partos":"0","observaciones":"SI","vendido":"1"},
+{"id":"18","arete_id":"6789","fecha_nacimiento":"2025-02-20","color":"Negro","sexo":"Hembra","peso":"56.00","corral_actual":"5","estado_salud":"Enfermo","fecha_registro":"2025-02-26 13:48:28","fecha_entrada":"2025-02-21","padre":"Ramiro","madre":"Corriente","raza":"Griego","fierro":"AZ","estado":"Viva","expectativa":"Reproducción","foto":null,"lugar_nacimiento":"Aqui","fecha_destete":"2025-02-27","tipo_alimentacion":"Mixto","numero_partos":"0","observaciones":"Esta fina","vendido":"0"},
+{"id":"19","arete_id":"999","fecha_nacimiento":"2025-02-20","color":"Azul","sexo":"Hembra","peso":"56.00","corral_actual":"6","estado_salud":"En tratamiento","fecha_registro":"2025-02-26 14:05:46","fecha_entrada":"2025-02-21","padre":"Ramiro","madre":"Corriente","raza":"Griego","fierro":"AZ","estado":"Viva","expectativa":"Reproducción","foto":null,"lugar_nacimiento":"Aqui","fecha_destete":"2025-02-22","tipo_alimentacion":"Concentrado","numero_partos":"0","observaciones":"Esta bien","vendido":"0"},
+{"id":"20","arete_id":"555","fecha_nacimiento":"2024-01-09","color":"Verde","sexo":"Macho","peso":"90.00","corral_actual":"7","estado_salud":"Sano","fecha_registro":"2025-02-26 14:11:38","fecha_entrada":"2024-03-05","padre":"Ramiro","madre":"Lechera","raza":"Griego","fierro":"ZAD","estado":"Viva","expectativa":"Reproducción","foto":null,"lugar_nacimiento":"Aqui","fecha_destete":"2024-03-06","tipo_alimentacion":"Mixto","numero_partos":"0","observaciones":"Esta fino.","vendido":"0"},
+{"id":"21","arete_id":"879","fecha_nacimiento":"2025-02-04","color":"Azul","sexo":"Macho","peso":"45.00","corral_actual":"3","estado_salud":"Sano","fecha_registro":"2025-02-28 11:45:40","fecha_entrada":"2025-02-06","padre":"Felipe","madre":"Corriente","raza":"Gringo","fierro":"WS","estado":"Viva","expectativa":"Engorda","foto":null,"lugar_nacimiento":"Aqui","fecha_destete":"2025-02-14","tipo_alimentacion":"Mixto","numero_partos":"0","observaciones":"Esta fino","vendido":"0"},
+{"id":"22","arete_id":"987","fecha_nacimiento":"2025-02-05","color":"Verde","sexo":"Hembra","peso":"45.00","corral_actual":"5","estado_salud":"Sano","fecha_registro":"2025-02-28 12:00:15","fecha_entrada":"2025-02-05","padre":"Ramiro","madre":"Corriente","raza":"Gringo","fierro":"FGC","estado":"Viva","expectativa":"Reproducción","foto":null,"lugar_nacimiento":"Aqui","fecha_destete":"2025-02-19","tipo_alimentacion":"Pastoreo","numero_partos":"0","observaciones":"ESta bien","vendido":"0"},
+{"id":"23","arete_id":"54","fecha_nacimiento":"2025-03-01","color":"Rojo","sexo":"Macho","peso":"19.00","corral_actual":"1","estado_salud":"Sano","fecha_registro":"2025-03-01 21:44:08","fecha_entrada":"2025-03-01","padre":"Greogorio","madre":"Mana","raza":"Gringo","fierro":"AZ","estado":"Viva","expectativa":"Engorda","foto":null,"lugar_nacimiento":"Rodeo","fecha_destete":"2025-03-20","tipo_alimentacion":"Mixto","numero_partos":"0","observaciones":"Es un res tierno","vendido":"0"},
+{"id":"24","arete_id":"567","fecha_nacimiento":"2025-02-12","color":"Verde","sexo":"Hembra","peso":"58.00","corral_actual":null,"estado_salud":"En tratamiento","fecha_registro":"2025-03-01 21:51:34","fecha_entrada":"2025-02-19","padre":"Rodrigo","madre":"Corriente","raza":"Cemental","fierro":"df","estado":"Viva","expectativa":"Lechera","foto":null,"lugar_nacimiento":"Aqui","fecha_destete":"2025-03-01","tipo_alimentacion":"0","numero_partos":"0","observaciones":"Esta vivita","vendido":"0"}
+]
+}
+,{"type":"table","name":"animal_hato","database":"ganaderia_db","data":
+[
+
+]
+}
+,{"type":"table","name":"asignaciones","database":"ganaderia_db","data":
+[
+{"id":"9","trabajador_id":"1","corral_id":"1","tarea":"Reproducción","fecha_asignacion":"2025-03-02"},
+{"id":"33","trabajador_id":"29","corral_id":"6","tarea":"Alimentación","fecha_asignacion":"2025-03-07"}
+]
+}
+,{"type":"table","name":"calidad_leche","database":"ganaderia_db","data":
+[
+
+]
+}
+,{"type":"table","name":"corrales","database":"ganaderia_db","data":
+[
+{"id":"1","nombre":"Corral 1","capacidad_maxima":"20","arete_id":null},
+{"id":"2","nombre":"Corral 2","capacidad_maxima":"20","arete_id":null},
+{"id":"3","nombre":"Corral 3","capacidad_maxima":"20","arete_id":null},
+{"id":"4","nombre":"Corral 4","capacidad_maxima":"20","arete_id":null},
+{"id":"5","nombre":"Corral 5","capacidad_maxima":"20","arete_id":null},
+{"id":"6","nombre":"Corral 6","capacidad_maxima":"20","arete_id":null},
+{"id":"7","nombre":"Corral 7","capacidad_maxima":"20","arete_id":null},
+{"id":"8","nombre":"Corral 8","capacidad_maxima":"20","arete_id":null},
+{"id":"9","nombre":"Corral 9","capacidad_maxima":"20","arete_id":null},
+{"id":"10","nombre":"Corral 10","capacidad_maxima":"20","arete_id":null},
+{"id":"11","nombre":"Corral 11","capacidad_maxima":"20","arete_id":null},
+{"id":"12","nombre":"Corral 12","capacidad_maxima":"20","arete_id":null},
+{"id":"13","nombre":"Corral 13","capacidad_maxima":"20","arete_id":null},
+{"id":"14","nombre":"Corral 14","capacidad_maxima":"20","arete_id":null},
+{"id":"15","nombre":"Corral 15","capacidad_maxima":"20","arete_id":null},
+{"id":"16","nombre":"Corral 16","capacidad_maxima":"20","arete_id":null},
+{"id":"17","nombre":"Corral 17","capacidad_maxima":"20","arete_id":null},
+{"id":"18","nombre":"Corral 18","capacidad_maxima":"20","arete_id":null}
+]
+}
+,{"type":"table","name":"costos","database":"ganaderia_db","data":
+[
+{"id":"1","concepto":"Venta","tipo":"Mano de obra","monto":"900.00","fecha":"2025-02-06","animal_id":"1"},
+{"id":"4","concepto":"Comida","tipo":"Alimentación","monto":"500.00","fecha":"2025-02-28","animal_id":"1"},
+{"id":"5","concepto":"Comida","tipo":"Alimentación","monto":"200.00","fecha":"2025-02-27","animal_id":"1"},
+{"id":"6","concepto":"Gripa","tipo":"Salud","monto":"400.00","fecha":"2025-02-28","animal_id":"20"},
+{"id":"7","concepto":"Limpiar el corral","tipo":"Mano de obra","monto":"300.00","fecha":"2025-02-20","animal_id":"22"},
+{"id":"8","concepto":"Baño","tipo":"Mano de obra","monto":"676.00","fecha":"2025-03-15","animal_id":"22"},
+{"id":"9","concepto":"Baño","tipo":"Mano de obra","monto":"500.00","fecha":"2025-03-01","animal_id":"24"},
+{"id":"10","concepto":"Venta","tipo":"Mano de obra","monto":"700.00","fecha":"2025-03-05","animal_id":"6"}
+]
+}
+,{"type":"table","name":"embriones","database":"ganaderia_db","data":
+[
+
+]
+}
+,{"type":"table","name":"enfermedades","database":"ganaderia_db","data":
+[
+
+]
+}
+,{"type":"table","name":"eventos_reproductivos","database":"ganaderia_db","data":
+[
+
+]
+}
+,{"type":"table","name":"ganancia_peso","database":"ganaderia_db","data":
+[
+{"id":"2","animal_id":"1","fecha":"2025-02-28","peso":"56.00","ganancia_diaria":null},
+{"id":"3","animal_id":"1","fecha":"2025-02-15","peso":"56.00","ganancia_diaria":null},
+{"id":"4","animal_id":"22","fecha":"2025-03-12","peso":"45.00","ganancia_diaria":null},
+{"id":"5","animal_id":"1","fecha":"2025-03-01","peso":"60.00","ganancia_diaria":null}
+]
+}
+,{"type":"table","name":"hatos","database":"ganaderia_db","data":
+[
+{"id":"1","nombre":"Si","descripcion":"No se","fecha_creacion":"2025-02-28 08:50:07"}
+]
+}
+,{"type":"table","name":"historial_medico","database":"ganaderia_db","data":
+[
+{"id":"1","animal_id":"1","fecha":"2025-02-26","tipo":"Vacuna","descripcion":"Esta enfermo de gripa"},
+{"id":"2","animal_id":"19","fecha":"2025-02-26","tipo":"Vacuna","descripcion":"Vacuna para la gripa"},
+{"id":"3","animal_id":"20","fecha":"2025-02-10","tipo":"Tratamiento","descripcion":"Recuperacion de gripa"},
+{"id":"7","animal_id":"22","fecha":"2025-03-07","tipo":"Vacuna","descripcion":"Pa que se aliviane"},
+{"id":"8","animal_id":"22","fecha":"2025-03-07","tipo":"Vacuna","descripcion":"Pa que se aliviane"},
+{"id":"9","animal_id":"22","fecha":"2025-03-11","tipo":"Vacuna","descripcion":"Evitar enfermedades"},
+{"id":"10","animal_id":"1","fecha":"2025-03-07","tipo":"Vacuna","descripcion":"Para la tos"},
+{"id":"11","animal_id":"24","fecha":"2025-03-01","tipo":"Enfermedad","descripcion":"Tiene tos"},
+{"id":"12","animal_id":"1","fecha":"2025-03-05","tipo":"Vacuna","descripcion":"Vacunas"}
+]
+}
+,{"type":"table","name":"historial_movimientos","database":"ganaderia_db","data":
+[
+{"id":"1","animal_id":"1","fecha":"2025-02-28","tipo":"Venta","descripcion":"Va pal matadero"},
+{"id":"2","animal_id":"19","fecha":"2027-03-11","tipo":"Traslado","descripcion":"Se cambia de hogar"},
+{"id":"3","animal_id":"20","fecha":"2025-08-22","tipo":"Venta","descripcion":"Se va a vender"},
+{"id":"6","animal_id":"1","fecha":"2025-03-06","tipo":"Venta","descripcion":"Se nos va :("},
+{"id":"7","animal_id":"22","fecha":"2025-02-20","tipo":"Cambio de corral","descripcion":"Se nos va"},
+{"id":"8","animal_id":"22","fecha":"2025-03-15","tipo":"Cambio de corral","descripcion":"Se va"},
+{"id":"9","animal_id":"24","fecha":"2025-03-05","tipo":"Traslado","descripcion":"Cambio de corral por apareamiento"}
+]
+}
+,{"type":"table","name":"historial_peso","database":"ganaderia_db","data":
+[
+{"id":"1","animal_id":"1","fecha":"2025-02-11","peso":"30.00"},
+{"id":"2","animal_id":"24","fecha":"2025-03-01","peso":"56.00"}
+]
+}
+,{"type":"table","name":"historial_reproductivo","database":"ganaderia_db","data":
+[
+{"id":"1","animal_id":"1","fecha":"2025-02-26","evento":"","descripcion":"Anda en su ciclo","toro_nombre":null,"toro_raza":null,"estado":"pendiente","observaciones":null,"fecha_confirmacion":null},
+{"id":"2","animal_id":"1","fecha":"2025-02-25","evento":"","descripcion":"Esta hot","toro_nombre":null,"toro_raza":null,"estado":"pendiente","observaciones":null,"fecha_confirmacion":null},
+{"id":"3","animal_id":"19","fecha":"2025-02-10","evento":"Parto","descripcion":"Ya pario","toro_nombre":null,"toro_raza":null,"estado":"pendiente","observaciones":null,"fecha_confirmacion":null},
+{"id":"4","animal_id":"20","fecha":"2025-02-25","evento":"","descripcion":"Esta hot","toro_nombre":null,"toro_raza":null,"estado":"pendiente","observaciones":null,"fecha_confirmacion":null},
+{"id":"7","animal_id":"1","fecha":"2025-02-06","evento":"","descripcion":"Todo bien","toro_nombre":"Joaquin","toro_raza":"Griego","estado":"completado","observaciones":"Esta chido","fecha_confirmacion":"2025-03-01"},
+{"id":"8","animal_id":"24","fecha":"2025-03-06","evento":"","descripcion":"Si","toro_nombre":"Joaquin","toro_raza":"Griego","estado":"pendiente","observaciones":"Esta pendiente","fecha_confirmacion":"2025-03-07"}
+]
+}
+,{"type":"table","name":"potreros","database":"ganaderia_db","data":
+[
+
+]
+}
+,{"type":"table","name":"produccion_leche","database":"ganaderia_db","data":
+[
+{"id":"1","animal_id":"1","fecha":"2025-02-20","litros":"4.00","grasa":"0.02","proteina":"0.01"},
+{"id":"2","animal_id":"22","fecha":"2025-03-01","litros":"56.00","grasa":"56.00","proteina":"34.00"},
+{"id":"3","animal_id":"24","fecha":"2025-03-04","litros":"59.00","grasa":"56.00","proteina":"32.00"}
+]
+}
+,{"type":"table","name":"proyeccion_carne","database":"ganaderia_db","data":
+[
+
+]
+}
+,{"type":"table","name":"registro_enfermedades","database":"ganaderia_db","data":
+[
+
+]
+}
+,{"type":"table","name":"rentabilidad","database":"ganaderia_db","data":
+[
+
+]
+}
+,{"type":"table","name":"trabajadores","database":"ganaderia_db","data":
+[
+{"id":"1","nombre":"Ruperto Martinez","contrasena_hash":""},
+{"id":"29","nombre":"Ruben","contrasena_hash":""},
+{"id":"30","nombre":"Carlos","contrasena_hash":""},
+{"id":"31","nombre":"Jaun","contrasena_hash":""}
+]
+}
+,{"type":"table","name":"usuarios","database":"ganaderia_db","data":
+[
+{"id":"1","nombre":"Admin","rol":"admin","usuario":"admin","contrasena_hash":"$2y$10$KRomKNm.932Oe6JfwNUB8eaob\/8cTN1wSImjHk.I9ESVnjPLl\/Q9i"}
+]
+}
+,{"type":"table","name":"ventas","database":"ganaderia_db","data":
+[
+{"id":"3","animal_id":"1","trabajador_id":"1","fecha_venta":"2025-03-05","precio":"7000.00","comprador":"Jesus","metodo_pago":"Efectivo"},
+{"id":"4","animal_id":"15","trabajador_id":"29","fecha_venta":"2025-03-07","precio":"9000.00","comprador":"Cesat","metodo_pago":"Tarjeta"}
+]
+}
+]

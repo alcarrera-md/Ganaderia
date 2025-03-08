@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Peso</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Registrar Peso</h1>
+        <form action="guardar_peso.php" method="POST">
+            <!-- Búsqueda del animal por arete_id -->
+            <div class="mb-3">
+                <label for="buscar_arete" class="form-label">Buscar Vaca por Arete ID</label>
+                <input type="text" class="form-control" id="buscar_arete" name="buscar_arete" placeholder="Ingrese el Arete ID" required>
+                <div id="resultados"></div>
+                <input type="hidden" id="animal_id" name="animal_id" required>
+            </div>
+
+            <!-- Fecha y Peso -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="fecha" class="form-label">Fecha</label>
+                        <input type="date" class="form-control" id="fecha" name="fecha" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="peso" class="form-label">Peso (kg)</label>
+                        <input type="number" step="0.01" class="form-control" id="peso" name="peso" required>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botón de envío -->
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+    </div>
+
+    <!-- Script para la búsqueda en tiempo real -->
+    <script>
+        document.getElementById('buscar_arete').addEventListener('input', function() {
+            const query = this.value.trim();
+            const resultadosDiv = document.getElementById('resultados');
+
+            if (query.length >= 2) {
+                fetch(`buscar_vacas.php?q=${query}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        resultadosDiv.innerHTML = '';
+                        if (data.length > 0) {
+                            data.forEach(vaca => {
+                                const item = document.createElement('div');
+                                item.className = 'resultado-item';
+                                item.textContent = `${vaca.arete_id}`;
+                                item.addEventListener('click', () => {
+                                    document.getElementById('buscar_arete').value = vaca.arete_id;
+                                    document.getElementById('animal_id').value = vaca.id;
+                                    resultadosDiv.style.display = 'none';
+                                });
+                                resultadosDiv.appendChild(item);
+                            });
+                            resultadosDiv.style.display = 'block';
+                        } else {
+                            resultadosDiv.style.display = 'none';
+                        }
+                    });
+            } else {
+                resultadosDiv.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
