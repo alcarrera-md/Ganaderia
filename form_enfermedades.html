@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Enfermedades</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Registro de Enfermedades</h1>
+        <form action="guardar_enfermedad.php" method="POST">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre de la Enfermedad</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="tipo" class="form-label">Tipo</label>
+                <select class="form-select" id="tipo" name="tipo" required>
+                    <option value="Infecciosa">Infecciosa</option>
+                    <option value="Metabólica">Metabólica</option>
+                    <option value="Parasitaria">Parasitaria</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar Enfermedad</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Ganancia de Peso</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Registro de Ganancia de Peso</h1>
+        <form action="guardar_ganancia_peso.php" method="POST">
+            <div class="mb-3">
+                <label for="animal_id" class="form-label">Seleccione el Animal</label>
+                <select class="form-select" id="animal_id" name="animal_id" required>
+                    <?php
+                    // Conexión a la base de datos
+                    $conexion = new mysqli("localhost", "root", "", "ganaderia_db");
+
+                    if ($conexion->connect_error) {
+                        die("Error de conexión: " . $conexion->connect_error);
+                    }
+
+                    // Consulta para obtener los animales
+                    $sql = "SELECT id, arete_id FROM animales";
+                    $resultado = $conexion->query($sql);
+
+                    if ($resultado->num_rows > 0) {
+                        while ($fila = $resultado->fetch_assoc()) {
+                            echo "<option value='" . $fila["id"] . "'>" . $fila["arete_id"] . "</option>";
+                        }
+                    } else {
+                        echo "<option>No hay animales registrados</option>";
+                    }
+
+                    $conexion->close();
+                    ?>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="fecha" class="form-label">Fecha</label>
+                <input type="date" class="form-control" id="fecha" name="fecha" required>
+            </div>
+            <div class="mb-3">
+                <label for="peso" class="form-label">Peso Actual (kg)</label>
+                <input type="number" step="0.01" class="form-control" id="peso" name="peso" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar Registro</button>
+        </form>
+    </div>
+</body>
+</html>
